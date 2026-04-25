@@ -1,0 +1,314 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hello", "hi", "hey", "good morning", "good afternoon", "good evening", "howdy", "what's up", "greetings", "namaste"],
+      "responses": ["Hello! Welcome to St. Philomena College (Autonomous), Puttur. How can I assist you today?", "Hi there! I'm SPC Assistant, your virtual guide for St. Philomena College. What would you like to know?", "Hey! Welcome! I'm here to help you with all your queries about St. Philomena College, Puttur. How can I help?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you", "take care", "thanks bye", "exit", "quit", "that's all", "no more questions"],
+      "responses": ["Goodbye! Best of luck with your academic journey at SPC, Puttur!", "Thank you for visiting. Feel free to return anytime. God bless!", "Bye! Don't hesitate to reach out again. Have a great day!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thank you", "thanks", "thank you so much", "thanks a lot", "much appreciated", "great thanks", "ok thanks"],
+      "responses": ["You're welcome! Is there anything else I can help you with?", "Happy to help! Let me know if you have any more questions.", "Glad I could assist! Feel free to ask anything else."]
+    },
+    {
+      "tag": "college_name",
+      "patterns": ["what is the name of the college", "college name", "full name of the college", "what college is this", "which college"],
+      "responses": ["The full name is **St. Philomena College (Autonomous), Puttur**. It is managed by the Catholic Board of Education (CBE) and is ISO 9001:2015 Certified. It has been Re-Accredited by NAAC at 'A' Grade."]
+    },
+    {
+      "tag": "college_history",
+      "patterns": ["when was the college founded", "history of the college", "college established", "who founded the college", "origin of the college", "college establishment year"],
+      "responses": ["St. Philomena College was founded in **1958** by **Msgr. Antony Patrao**. He envisioned a college in this part of Karnataka to save people from traveling to distant places for higher education. The college has since grown into a reputed autonomous institution."]
+    },
+    {
+      "tag": "vision_mission",
+      "patterns": ["what is the vision of the college", "mission of the college", "objectives", "vision and mission", "college goals"],
+      "responses": ["St. Philomena College aims to provide quality education rooted in values and excellence. The institution is committed to the holistic development of students — academically, culturally, and spiritually — to produce responsible citizens. For detailed vision and mission, visit: https://spcputtur.ac.in/the-institution/vision-and-mision"]
+    },
+    {
+      "tag": "accreditation",
+      "patterns": ["is the college accredited", "NAAC grade", "accreditation", "ISO certification", "college ranking", "college recognition", "autonomous status"],
+      "responses": ["St. Philomena College (Autonomous), Puttur holds the following recognitions:\n\n• **NAAC Accredited** at 'A' Grade (Re-Accredited)\n• **ISO 9001:2015 Certified** Institution\n• **Autonomous Status** granted by the University\n• Managed by **CBE (Catholic Board of Education)**\n\nFor more details on NAAC, visit: https://spcputtur.ac.in/quality-initiatives/naac"]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact details", "phone number", "email address", "how to contact", "college phone", "college email", "contact information", "helpline"],
+      "responses": ["Here are the contact details for St. Philomena College, Puttur:\n\n📞 **Landline:** 08251-230340\n📱 **UG Admissions:** 9901380340\n📱 **PG Admissions:** 8050601640\n📧 **Email:** principal@spcputtur.ac.in\n🌐 **Website:** https://spcputtur.ac.in\n\nOffice Hours: Monday to Saturday, 9:00 AM to 5:00 PM"]
+    },
+    {
+      "tag": "location",
+      "patterns": ["where is the college located", "address of the college", "college address", "how to reach the college", "location", "college location", "campus location"],
+      "responses": ["**St. Philomena College (Autonomous), Puttur** is located in Puttur, Dakshina Kannada District, Karnataka, India.\n\n📍 Puttur - 574201, Dakshina Kannada, Karnataka.\n\nFor a campus map, visit: https://spcputtur.ac.in/the-institution/campus-map"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["how to apply for admission", "admission process", "admission procedure", "how to get admission", "apply for college", "admission form", "admission open", "admission 2026", "online admission", "registration"],
+      "responses": ["🎓 **Admission Process at SPC, Puttur:**\n\n1. Visit the online admission portal: https://erp.aargees.com/quickapplication/?ic=1\n2. Fill in the application form with personal and academic details\n3. Upload required documents\n4. Submit the form and note the application number\n5. Await confirmation from the admissions office\n\nFor queries, call: **9901380340 (UG)** or **8050601640 (PG)**\n\n📌 Admissions are currently open for 2026-27!"]
+    },
+    {
+      "tag": "admission_eligibility",
+      "patterns": ["eligibility for admission", "who can apply", "minimum marks for admission", "admission criteria", "percentage required", "qualification required"],
+      "responses": ["**Eligibility Criteria for Admission:**\n\n• **UG Programs (BA/B.Sc/B.Com/BBA/BCA):** Passed PUC / 10+2 or equivalent with minimum 45% marks (40% for SC/ST)\n• **PG Programs (M.Com/MSW/M.Sc/MCA):** Graduation in relevant discipline with minimum 50% marks\n\nFor specific program eligibility, contact the admissions office at **9901380340 (UG)** or **8050601640 (PG)**."]
+    },
+    {
+      "tag": "ug_courses",
+      "patterns": ["undergraduate courses", "UG programs", "bachelor degree courses", "what courses are offered", "courses available", "degree programs", "BA BSc BCom BBA BCA"],
+      "responses": ["🎓 **UG Programs offered at SPC, Puttur:**\n\n1. **BA** – Bachelor of Arts (Humanities)\n2. **B.Sc** – Bachelor of Science\n3. **B.Com** – Bachelor of Commerce\n4. **BBA** – Bachelor of Business Administration\n5. **BCA** – Bachelor of Computer Applications\n\nThe college also has departments for Languages and Physical Education.\nFor more details, visit: https://spcputtur.ac.in"]
+    },
+    {
+      "tag": "pg_courses",
+      "patterns": ["postgraduate courses", "PG programs", "master degree courses", "MSW MCA MCom", "postgraduate programs available", "PG courses", "masters programs"],
+      "responses": ["🎓 **PG Programs offered at SPC, Puttur:**\n\n1. **MSW** – Master of Social Work\n2. **M.Com** – Master of Commerce\n3. **M.Sc Physics** – Master of Science in Physics\n4. **M.Sc Mathematics** – Master of Science in Mathematics\n5. **MCA** – Master of Computer Applications\n\nFor more details, visit: https://spcputtur.ac.in"]
+    },
+    {
+      "tag": "bca_course",
+      "patterns": ["BCA course", "Bachelor of Computer Applications", "BCA program", "BCA details", "computer applications course", "BCA admission"],
+      "responses": ["💻 **BCA – Bachelor of Computer Applications** at SPC, Puttur:\n\n• Duration: 3 Years (6 Semesters)\n• Eligibility: PUC / 10+2 with Mathematics or Computer Science\n• Focuses on programming, databases, networking, and software development\n• Strong placement support\n\nFor more details, visit: https://spcputtur.ac.in/bca"]
+    },
+    {
+      "tag": "bcom_course",
+      "patterns": ["BCom course", "bachelor of commerce", "commerce course", "BCom admission", "BCom program details"],
+      "responses": ["📊 **B.Com – Bachelor of Commerce** at SPC, Puttur:\n\n• Duration: 3 Years (6 Semesters)\n• Eligibility: PUC / 10+2 (Commerce/Science/Arts)\n• Covers Accounting, Finance, Economics, Business Management\n• Strong industry linkage and placement cell\n\nFor more details, visit: https://spcputtur.ac.in/bcom"]
+    },
+    {
+      "tag": "bba_course",
+      "patterns": ["BBA course", "business administration", "BBA program", "BBA admission", "management course UG"],
+      "responses": ["🏢 **BBA – Bachelor of Business Administration** at SPC, Puttur:\n\n• Duration: 3 Years (6 Semesters)\n• Eligibility: PUC / 10+2 in any stream\n• Covers Management, Marketing, Finance, HR\n• Industry interaction and internship opportunities\n\nFor more details, visit: https://spcputtur.ac.in/bba"]
+    },
+    {
+      "tag": "ba_course",
+      "patterns": ["BA course", "bachelor of arts", "humanities course", "BA program", "arts course"],
+      "responses": ["📚 **BA – Bachelor of Arts (Humanities)** at SPC, Puttur:\n\n• Duration: 3 Years (6 Semesters)\n• Eligibility: PUC / 10+2 in any stream\n• Subjects: History, Political Science, Sociology, Economics, Languages\n• Active Humanities Association for extracurriculars\n\nFor more details, visit: https://spcputtur.ac.in/ba"]
+    },
+    {
+      "tag": "bsc_course",
+      "patterns": ["BSc course", "bachelor of science", "science course", "BSc program", "BSc admission"],
+      "responses": ["🔬 **B.Sc – Bachelor of Science** at SPC, Puttur:\n\n• Duration: 3 Years (6 Semesters)\n• Eligibility: PUC / 10+2 with Science stream\n• Subjects: Physics, Chemistry, Mathematics, Biology, Computer Science\n• Well-equipped science laboratories\n\nFor more details, visit: https://spcputtur.ac.in/b-sc"]
+    },
+    {
+      "tag": "mca_course",
+      "patterns": ["MCA course", "master of computer applications", "MCA program", "MCA admission", "PG computer course"],
+      "responses": ["💻 **MCA – Master of Computer Applications** at SPC, Puttur:\n\n• Duration: 2 Years (4 Semesters)\n• Eligibility: BCA / B.Sc Computer Science / B.Sc IT or any graduate with Mathematics\n• Advanced computing, software engineering, AI/ML\n• Strong placement record in IT companies\n\nFor more details, visit: https://spcputtur.ac.in/pg_departments/mca"]
+    },
+    {
+      "tag": "mcom_course",
+      "patterns": ["MCom course", "master of commerce", "MCom program", "MCom admission", "PG commerce"],
+      "responses": ["📊 **M.Com – Master of Commerce** at SPC, Puttur:\n\n• Duration: 2 Years (4 Semesters)\n• Eligibility: B.Com or equivalent graduation\n• Covers Advanced Accounting, Finance, Taxation, Research\n• Opportunities in banking, finance, and academics\n\nFor more details, visit: https://spcputtur.ac.in/pg_departments/mcom"]
+    },
+    {
+      "tag": "msw_course",
+      "patterns": ["MSW course", "master of social work", "MSW program", "social work course", "PG social work"],
+      "responses": ["🤝 **MSW – Master of Social Work** at SPC, Puttur:\n\n• Duration: 2 Years (4 Semesters)\n• Eligibility: Any graduation\n• Focuses on community development, NGO work, social welfare\n• Field placements and internship opportunities\n\nFor more details, visit: https://spcputtur.ac.in/pg_departments/msw"]
+    },
+    {
+      "tag": "msc_physics",
+      "patterns": ["MSc physics", "master of science physics", "MSc physics program", "physics PG course"],
+      "responses": ["⚛️ **M.Sc Physics** at SPC, Puttur:\n\n• Duration: 2 Years (4 Semesters)\n• Eligibility: B.Sc Physics or equivalent\n• Covers Quantum Mechanics, Electronics, Spectroscopy, and more\n• Research-oriented curriculum\n\nFor more details, visit: https://spcputtur.ac.in/pg_departments/physics"]
+    },
+    {
+      "tag": "msc_maths",
+      "patterns": ["MSc mathematics", "master of science maths", "MSc maths program", "mathematics PG course"],
+      "responses": ["📐 **M.Sc Mathematics** at SPC, Puttur:\n\n• Duration: 2 Years (4 Semesters)\n• Eligibility: B.Sc Mathematics or equivalent\n• Pure and Applied Mathematics curriculum\n• Prepares for research and teaching careers\n\nFor more details, visit: https://spcputtur.ac.in/pg_departments/mscmaths"]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": ["fee structure", "fees", "how much is the fee", "tuition fees", "course fees", "annual fees", "semester fees", "fee details"],
+      "responses": ["💰 **Fee Information:**\n\nFee details vary by program. For the most accurate and updated fee structure, please:\n\n📞 Call: **9901380340 (UG)** | **8050601640 (PG)**\n📧 Email: principal@spcputtur.ac.in\n🌐 Website: https://spcputtur.ac.in/prospectus\n\nScholarships and fee concessions may be available for eligible students."]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["scholarship", "financial aid", "fee waiver", "scholarship details", "SC ST scholarship", "minority scholarship", "government scholarship"],
+      "responses": ["🎓 **Scholarships Available at SPC, Puttur:**\n\n• **Government Scholarships:** SC/ST/OBC/Minority scholarships from the Government of Karnataka\n• **Merit Scholarships:** For academically outstanding students\n• **Management Scholarships:** For economically weaker sections\n• **Fee Concessions:** Available for deserving students\n\nFor details, visit the college office or contact:\n📞 9901380340 (UG) | 8050601640 (PG)"]
+    },
+    {
+      "tag": "placement",
+      "patterns": ["placement cell", "job placement", "campus placement", "career opportunities", "companies visit", "recruitment", "placement record", "job after college"],
+      "responses": ["💼 **Placement Cell – SPC, Puttur:**\n\nThe college has an active **Placement Cell** that:\n• Conducts campus recruitment drives\n• Provides training for aptitude, communication, and interviews\n• Connects students with reputed companies\n• Offers career counseling and guidance\n\nFor more details, visit: https://spcputtur.ac.in/placementcell"]
+    },
+    {
+      "tag": "library",
+      "patterns": ["library", "books available", "library facilities", "library timings", "library membership", "reading room"],
+      "responses": ["📚 **Library – SPC, Puttur:**\n\nThe college library is well-equipped with:\n• Thousands of books across all disciplines\n• Journals, magazines, and periodicals\n• Digital resources and e-library access\n• Reading room facility\n• OPAC (Online Public Access Catalogue)\n\nLibrary hours are generally 8:30 AM to 5:30 PM on working days."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel facility", "hostel available", "accommodation", "boys hostel", "girls hostel", "hostel fees", "can I stay in hostel"],
+      "responses": ["🏠 **Hostel Facility:**\n\nSt. Philomena College has hostel facilities for students. For details regarding availability, fees, and rules, please contact:\n\n📞 Landline: 08251-230340\n📱 College Office: 9901380340\n\nKindly inquire directly with the college administration for current hostel status and availability."]
+    },
+    {
+      "tag": "ncc",
+      "patterns": ["NCC", "national cadet corps", "join NCC", "NCC activities", "NCC at SPC"],
+      "responses": ["🎖️ **NCC – National Cadet Corps at SPC, Puttur:**\n\nThe college has an active NCC unit offering:\n• Military-style training and discipline\n• Adventure and leadership camps\n• Social service activities\n• Certificate courses (A, B, C level)\n• Special consideration in government jobs for NCC certificate holders\n\nFor more details, visit: https://spcputtur.ac.in/ncc"]
+    },
+    {
+      "tag": "nss",
+      "patterns": ["NSS", "national service scheme", "join NSS", "NSS activities", "NSS at SPC", "community service"],
+      "responses": ["🤝 **NSS – National Service Scheme at SPC, Puttur:**\n\nThe NSS unit at SPC is actively involved in:\n• Community development programs\n• Blood donation camps\n• Environmental awareness drives\n• Village adoption programs\n• Annual special camps\n\nFor more details, visit: https://spcputtur.ac.in/nss"]
+    },
+    {
+      "tag": "sports",
+      "patterns": ["sports facilities", "sports at college", "physical education", "sports teams", "athletics", "games available", "sports activities"],
+      "responses": ["⚽ **Sports & Physical Education at SPC, Puttur:**\n\nThe college offers excellent sports facilities:\n• Dedicated Physical Education department\n• Indoor and outdoor sports\n• Cricket, Football, Volleyball, Basketball, Athletics\n• Participation in university and inter-collegiate tournaments\n\nFor more details, visit: https://spcputtur.ac.in/physical-education"]
+    },
+    {
+      "tag": "clubs",
+      "patterns": ["clubs in college", "student clubs", "IT club", "commerce club", "student associations", "management association", "humanities association", "student activities"],
+      "responses": ["🎭 **Student Clubs & Associations at SPC, Puttur:**\n\n• 💻 **IT Club** – Tech events, coding, workshops\n• 📊 **Commerce Association** – Commerce-related activities\n• 🏢 **Management Association** – Business & leadership events\n• 📚 **Humanities Association** – Cultural and literary events\n• 🌿 **Eco/Nature Club** – Environmental awareness\n• ❤️ **Human Rights Association** – Social awareness\n• 🌸 **Divya Chethana Association** – Special support programs\n\nVisit: https://spcputtur.ac.in"]
+    },
+    {
+      "tag": "certificate_courses",
+      "patterns": ["certificate courses", "short term courses", "skill development courses", "add on courses", "additional courses", "certificate programs"],
+      "responses": ["📜 **Certificate Courses at SPC, Puttur:**\n\nThe college offers various certificate courses for skill development beyond the regular curriculum. These short-term programs enhance employability and practical knowledge.\n\nFor a complete list, visit: https://spcputtur.ac.in/certificate-courses\nOr contact the academic office: 08251-230340"]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": ["academic calendar", "college schedule", "exam dates", "holidays", "college calendar", "when does college start", "semester dates"],
+      "responses": ["📅 **Academic Calendar:**\n\nFor the current academic calendar including semester dates, exam schedules, holidays, and events, please visit:\n🔗 https://spcputtur.ac.in/academic-calendar\n\nOr contact the Registrar's office:\n📞 08251-230340"]
+    },
+    {
+      "tag": "principal",
+      "patterns": ["who is the principal", "principal of the college", "principal name", "current principal", "head of the college"],
+      "responses": ["👨‍💼 **Principal of SPC, Puttur:**\n\nThe college is headed by **Rev. Dr. Antony Prakash Monteiro**.\n\nFor details, visit: https://spcputtur.ac.in/rev-dr-antony-prakash-monteiro"]
+    },
+    {
+      "tag": "hod_cs",
+      "patterns": ["head of department computer science", "HOD CS", "HOD computer science", "who is HOD of CS", "computer science HOD"],
+      "responses": ["👩‍💼 **HOD – Department of Computer Science:**\n\n**Dr. Vinayachandra** is the Head of the Department of Computer Science at St. Philomena College (Autonomous), Puttur."]
+    },
+    {
+      "tag": "anti_ragging",
+      "patterns": ["anti ragging", "ragging complaint", "ragging policy", "is there ragging", "ragging rules"],
+      "responses": ["🚫 **Anti-Ragging Policy at SPC, Puttur:**\n\nSt. Philomena College has a strict zero-tolerance policy against ragging. The college has an active Anti-Ragging Committee.\n\n• All forms of ragging are strictly prohibited\n• Complaints can be reported to the Anti-Ragging Committee\n• Severe action will be taken against offenders\n\nFor details, visit: https://spcputtur.ac.in/statutes/anti-ragging"]
+    },
+    {
+      "tag": "grievance",
+      "patterns": ["grievance redressal", "complaint", "how to file a complaint", "grievance committee", "grievance cell"],
+      "responses": ["📋 **Grievance Redressal at SPC, Puttur:**\n\nStudents can raise academic or non-academic grievances through:\n\n• The **Grievance Redressal Cell** of the college\n• Submission of a written complaint to the Principal's office\n• Online portal if available\n\nFor more details, visit: https://spcputtur.ac.in/statutes/grievance-redressal"]
+    },
+    {
+      "tag": "women_cell",
+      "patterns": ["women cell", "ICC", "internal complaints committee", "women empowerment", "anti sexual harassment", "women welfare"],
+      "responses": ["🌸 **Women Support Cells at SPC, Puttur:**\n\n• **ICC (Internal Complaints Committee)** – Addresses sexual harassment complaints\n• **Anti-Women Harassment Cell** – Prevention and response mechanism\n• **Women Empowerment Cell** – Promotes gender equality and women's rights\n\nAll complaints are treated with strict confidentiality.\n\nFor details: https://spcputtur.ac.in/statutes/anti-sexual-harassment"]
+    },
+    {
+      "tag": "iqac",
+      "patterns": ["IQAC", "internal quality assurance cell", "quality assurance", "IQAC activities", "IQAC at SPC"],
+      "responses": ["✅ **IQAC – Internal Quality Assurance Cell at SPC, Puttur:**\n\nThe IQAC ensures continuous improvement in the quality of education and administration. It:\n• Monitors academic quality and student outcomes\n• Prepares AQAR (Annual Quality Assurance Reports)\n• Coordinates NAAC accreditation processes\n• Implements best practices\n\nFor more details, visit: https://spcputtur.ac.in/iqac"]
+    },
+    {
+      "tag": "exam_results",
+      "patterns": ["exam results", "how to check results", "result declared", "semester results", "marks", "result website"],
+      "responses": ["📊 **Exam Results:**\n\nResults for autonomous examinations are declared by St. Philomena College. Check results on:\n\n🌐 College Website: https://spcputtur.ac.in\n\nFor result-related queries, contact:\n📞 Registrar (Evaluation): 08251-230340\n\nResults for university exams are published on the Mangalore University website."]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": ["syllabus", "curriculum", "what subjects are taught", "course curriculum", "subjects in BCA", "subjects in BCom", "course structure"],
+      "responses": ["📖 **Syllabus & Curriculum:**\n\nSyllabus details for all UG and PG programs are available through the Office of the Registrar.\n\n🌐 Visit: https://spcputtur.ac.in\n> Academics → Office of the Registrar → Syllabus\n\nFor specific program syllabus, contact the respective department."]
+    },
+    {
+      "tag": "prospectus",
+      "patterns": ["prospectus", "college brochure", "college prospectus", "download prospectus"],
+      "responses": ["📄 **College Prospectus:**\n\nThe prospectus of St. Philomena College, Puttur contains all essential information about courses, fees, facilities, and rules.\n\n🔗 Download/View: https://spcputtur.ac.in/prospectus\n\nYou can also collect a hard copy from the college administrative office."]
+    },
+    {
+      "tag": "rover_rangers",
+      "patterns": ["rovers rangers", "scouts", "rovers and rangers", "youth activities", "adventure club"],
+      "responses": ["⛺ **Rovers & Rangers at SPC, Puttur:**\n\nThe Rovers & Rangers unit is part of the Bharat Scouts & Guides movement and focuses on:\n• Leadership development\n• Community service\n• Adventure activities\n• Social responsibility\n\nFor details, visit: https://spcputtur.ac.in/rovers-and-rangers"]
+    },
+    {
+      "tag": "yrc",
+      "patterns": ["YRC", "youth red cross", "red cross club", "blood donation", "health services"],
+      "responses": ["❤️ **Youth Red Cross (YRC) at SPC, Puttur:**\n\nThe YRC at SPC is actively involved in:\n• Blood donation camps\n• First aid awareness programs\n• Health and hygiene awareness\n• Disaster relief awareness\n\nFor details, visit: https://spcputtur.ac.in/youth-red-cross"]
+    },
+    {
+      "tag": "iic",
+      "patterns": ["IIC", "innovation council", "startup", "entrepreneurship", "innovation at SPC", "IIC activities"],
+      "responses": ["💡 **IIC – Institution's Innovation Council at SPC, Puttur:**\n\nThe IIC promotes:\n• Innovation and entrepreneurship among students\n• Startup culture and incubation\n• Design thinking workshops\n• Participation in national innovation competitions\n\nFor details, visit: https://spcputtur.ac.in/iic"]
+    },
+    {
+      "tag": "nirf",
+      "patterns": ["NIRF ranking", "national ranking", "NIRF", "college ranking nationally", "NIRF score"],
+      "responses": ["📈 **NIRF Ranking – SPC, Puttur:**\n\nSt. Philomena College participates in the National Institutional Ranking Framework (NIRF) by the Ministry of Education.\n\nFor the latest ranking data, visit:\n🔗 https://spcputtur.ac.in/moe-initiatives/nirf"]
+    },
+    {
+      "tag": "swayam",
+      "patterns": ["Swayam", "online courses", "MOOC", "Swayam local chapter", "online learning", "NPTEL"],
+      "responses": ["🖥️ **SWAYAM / Online Learning at SPC, Puttur:**\n\nThe college has a **SWAYAM Local Chapter** that encourages students to enroll in free online courses from leading institutions through the SWAYAM/NPTEL platforms.\n\nFor details, visit: https://spcputtur.ac.in/moe-initiatives/swayam-localchapter"]
+    },
+    {
+      "tag": "erp_trackme",
+      "patterns": ["ERP", "track me app", "student portal", "ERP login", "online portal", "attendance tracking", "student app"],
+      "responses": ["📱 **TRACK ME App / ERP Portal at SPC, Puttur:**\n\nThe college uses an ERP system and TRACK ME App for:\n• Attendance tracking\n• Academic records\n• Student information management\n\n🔗 Access: https://spcputtur.ac.in/erp-login/erp-track-me\n\nContact the college IT department for login credentials or technical support."]
+    },
+    {
+      "tag": "digital_garden",
+      "patterns": ["digital garden", "digital museum", "botany museum", "zoology museum", "online museum", "virtual museum"],
+      "responses": ["🌿 **Digital Garden & Museum at SPC, Puttur:**\n\nSPC has a unique **Digital Garden** project:\n• 🌱 **Digital Garden:** https://digitalgarden.spcputtur.ac.in/\n• 🌸 **Botany Museum:** https://digitalgarden.spcputtur.ac.in/botany-museum\n• 🐾 **Zoology Museum:** https://digitalgarden.spcputtur.ac.in/zoology-museum\n\nThese are innovative e-resources for students and researchers."]
+    },
+    {
+      "tag": "gallery",
+      "patterns": ["photo gallery", "college photos", "gallery", "college events photos", "media gallery"],
+      "responses": ["📸 **Photo Gallery – SPC, Puttur:**\n\nView photos of college events, activities, and campus life at:\n🔗 https://spcputtur.ac.in/gallery\n\nFor event-related updates, visit: https://spcputtur.ac.in/updates"]
+    },
+    {
+      "tag": "feedback",
+      "patterns": ["feedback", "give feedback", "student feedback", "rate the college", "feedback form"],
+      "responses": ["💬 **Feedback – SPC, Puttur:**\n\nThe college values feedback from students, parents, and visitors to continuously improve.\n\n🔗 Submit Feedback: https://spcputtur.ac.in/feedback\n\nYour feedback helps us serve you better!"]
+    },
+    {
+      "tag": "autonomous",
+      "patterns": ["what does autonomous mean", "autonomous college", "autonomy of the college", "is SPC autonomous"],
+      "responses": ["🏛️ **Autonomous Status of SPC, Puttur:**\n\nSt. Philomena College has been granted **Autonomous Status** by the University. This means:\n\n• The college designs its own **curriculum and syllabus**\n• The college conducts its **own examinations**\n• Degrees are awarded by the **affiliating university**\n• Greater academic freedom and innovation in teaching\n\nFor more details on autonomy: https://spcputtur.ac.in/au-grant-letter"]
+    },
+    {
+      "tag": "departments",
+      "patterns": ["departments in the college", "list of departments", "all departments", "which departments are there"],
+      "responses": ["🏫 **Departments at SPC, Puttur:**\n\n**UG Departments:**\n• Humanities (BA)\n• Science (B.Sc)\n• Commerce (B.Com)\n• Business Administration (BBA)\n• Computer Science (BCA)\n• Languages\n• Physical Education\n\n**PG Departments:**\n• Social Work (MSW)\n• Commerce (M.Com)\n• Physics (M.Sc)\n• Mathematics (M.Sc)\n• Computer Applications (MCA)"]
+    },
+    {
+      "tag": "sc_st_cell",
+      "patterns": ["SC ST cell", "OBC welfare", "minority welfare", "SC ST OBC scholarship", "welfare cell", "backward class cell"],
+      "responses": ["🤝 **SC/ST/OBC/Minority Welfare Cell at SPC, Puttur:**\n\nThe college has dedicated support for SC/ST/OBC and minority students:\n• Government scholarship facilitation\n• Special coaching and remedial classes\n• Guidance for competitive exams\n• Equal Opportunity Cell\n\nContact the welfare cell through the college administrative office:\n📞 08251-230340"]
+    },
+    {
+      "tag": "anti_drug",
+      "patterns": ["anti drug", "drug free campus", "drug policy", "drug committee"],
+      "responses": ["🚫 **Anti-Drug Vigilance Committee at SPC, Puttur:**\n\nSPC is committed to maintaining a **drug-free campus**. The Anti-Drug Vigilance Committee:\n• Creates awareness about dangers of substance abuse\n• Conducts awareness programs and campaigns\n• Enforces strict campus rules\n\nFor details: https://spcputtur.ac.in/anti-drug-vigilence-committee"]
+    },
+    {
+      "tag": "performing_arts",
+      "patterns": ["arts activities", "cultural activities", "dance", "music", "drama", "performing arts", "fine arts", "cultural programs"],
+      "responses": ["🎭 **Performing and Fine Arts at SPC, Puttur:**\n\nThe college actively promotes cultural arts:\n• Dance, music, drama, and fine arts\n• Annual cultural festivals and competitions\n• Participation in inter-collegiate cultural events\n• Students can join performance groups through the Student Council\n\nFor details: https://spcputtur.ac.in/statutes/performing-and-fine-arts"]
+    },
+    {
+      "tag": "students_council",
+      "patterns": ["student council", "student union", "class representatives", "student body", "student government"],
+      "responses": ["🗳️ **Students' Council at SPC, Puttur:**\n\nThe Students' Council represents student interests and:\n• Organizes college events and programs\n• Coordinates between students and administration\n• Manages student associations and clubs\n• Conducts elections annually\n\nFor details: https://spcputtur.ac.in/student-council"]
+    },
+    {
+      "tag": "iso_certification",
+      "patterns": ["ISO certification", "ISO 9001", "quality certification", "ISO certificate"],
+      "responses": ["✅ **ISO 9001:2015 Certification:**\n\nSt. Philomena College (Autonomous), Puttur is **ISO 9001:2015 Certified**, reflecting the institution's commitment to maintaining high standards in:\n• Academic quality\n• Administrative processes\n• Continuous improvement\n• Student satisfaction\n\nFor more information: https://spcputtur.ac.in/iso-9001-2015-certified-institution"]
+    },
+    {
+      "tag": "vermi_composting",
+      "patterns": ["vermi composting", "composting unit", "eco initiatives", "green campus", "environmental activities"],
+      "responses": ["🌱 **Eco Initiatives at SPC, Puttur:**\n\nSPC is committed to sustainability through:\n• **Vermi Composting Unit** on campus\n• **Eco/Nature Club** for environmental awareness\n• **Digital Garden** project\n• Swachh Campus initiative\n\nFor more: https://spcputtur.ac.in/institutional-distinctiveness/vermi-composting-unit"]
+    },
+    {
+      "tag": "annual_report",
+      "patterns": ["annual report", "college annual report", "yearly report"],
+      "responses": ["📑 **Annual Reports – SPC, Puttur:**\n\nAnnual reports of the college are publicly available.\n\n🔗 Download: https://spcputtur.ac.in/annual-reports"]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [],
+      "responses": ["I'm sorry, I didn't quite understand that. Could you rephrase your question? You can ask me about admissions, courses, fees, facilities, contact details, departments, or any other college-related topic.", "Hmm, I'm not sure about that one. Try asking about: admissions, UG/PG courses, fees, placement, hostels, clubs, or college facilities.", "I don't have information on that specific topic yet. For detailed assistance, please contact us at 📞 08251-230340 or visit https://spcputtur.ac.in"]
+    }
+  ]
+}
